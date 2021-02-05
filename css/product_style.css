@@ -1,0 +1,545 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 1366px;
+    height: 3392px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.slider {
+    width: 1366px;
+    height: 356px;
+    background-color: #f5f5f5;
+}
+
+.logo {
+    width: 184px;
+    height: 21px;
+    padding-left: 98px;
+    padding-top: 64px;
+}
+
+.header .menu {
+    float: right;
+    padding-right: 98px;
+    padding-top: 67px;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-list .menu-link {
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px 13px;
+    text-decoration: none;
+}
+
+
+
+.menu-list .menu-link-active {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.menu-link:hover {
+    border-bottom: 3px solid #212121;
+    color: #212121;
+}
+
+.text {
+    font-family: Montserrat;
+    font-size: 62px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+    padding-left: 101px;
+    padding-top: 173px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.product-menu {
+    margin: 71px 146px 19px 105px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #6c6c6c;
+}
+
+.product-menu-list {
+    display: inline-block;
+    padding-right: 34px;
+}
+
+.product-menu-link-active {
+    font-weight: bold;
+    color: #212121;
+}
+
+.product-menu-list a:hover {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    cursor: pointer;
+    border-bottom: 1px solid #212121;
+}
+
+.product-menu-strock {
+    width: 327px;
+    height: 1px;
+    margin-left: 98px;
+    background-color: #6c6c6c;
+}
+
+.product-menu-active {
+    width: 74px;
+    height: 3px;
+    margin-left: 98px;
+    margin-top: 19px;
+    background-color: #212121;
+}
+
+div.products {
+    padding-top: 50px;
+    padding-left: 98px;
+}
+
+div.product-images-first-row .product {
+    width: 370px;
+    height: 370px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+div.product-images-second-row {
+    padding-top: -1px;
+}
+
+div.product-images-second-row .product {
+    width: 370px;
+    height: 370px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+div.product:hover {
+    box-shadow: 0 0 12px 12px rgba(33, 33, 33, 0.35);
+}
+
+.download-more {
+    width: 42px;
+    height: 29px;
+    font-family: icomoon;
+    font-size: 42px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.2px;
+    text-align: center;
+    color: #212121;
+    padding-top: 69px;
+    margin: 0 auto;
+}
+
+.download-more > a > img:hover {
+    box-shadow: 0 0 12px 12px rgba(33, 33, 33, 0.35);
+}
+
+
+.promo-block {
+    padding-top: 138px;
+}
+
+.promo-block div {
+    float: left;
+}
+
+.promo-block1 {
+    width: 683px;
+    height: 683px;
+    background-image: url('../img/main_page/promo-img1.jpg');
+}
+
+.promo-block2 {
+    width: 683px;
+    height: 683px;
+    background-image: url('../img/main_page/promo-img2.jpg');
+}
+
+
+
+p.promo-text-exclusive {
+    width: 115px;
+    height: 13px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.67;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #1e88e5;
+    padding-left: 51px;
+    padding-top: 228px;
+    text-transform: uppercase;
+}
+
+.promo-text-product-name {
+    width: 236px;
+    height: 28px;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+    padding-left: 52px;
+    padding-top: 18px;
+    white-space: nowrap;
+}
+
+.promo-text-short-description {
+    width: 374px;
+    height: 36px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6c6c6c;
+    padding-left: 50px;
+    padding-top: 24px;
+}
+
+.promo-text-button {
+    width: 212px;
+    height: 46px;
+    margin-left: 50px;
+    margin-top: 34px;
+    border-radius: 22.5px;
+    box-shadow: 0px 2px 4.9px 0.2px rgba(33, 33, 33, 0.35);
+    background-color: #ffffff;
+    text-transform: uppercase;
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    height: 45px;
+    line-height: 45px;
+    letter-spacing: 3.6px;
+    text-align: center;
+    color: #212121;
+    text-decoration: none; 
+}
+
+
+
+.promo-text-button-arrow {
+    width: 9px;
+    height: 12px;
+    padding-left: 12px;
+}
+
+.footer {
+    width: 1366px;
+    height: 384px;
+    background-color: #f7f7f7;
+}
+
+.contact-info {
+    float: left;
+}
+
+.contact-us {
+    width: 132px;
+    height: 13px;
+    padding-top: 120px;
+    padding-left: 98px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #6c6c6c;
+    text-transform: uppercase;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+span.useful-information {
+    width: 237px;
+    height: 13px;
+    padding-left: 168px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #6c6c6c;
+    text-transform: uppercase;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+a.useful-information {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: 0.7px;
+  text-align: left;
+  color: #212121;
+}
+
+a.useful-information:hover {
+    border-bottom: 1px solid #212121;
+}
+
+
+
+.lets-stay {
+    width: 230px;
+    height: 13px;
+    padding-left: 263px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 1.8px;
+    text-align: left;
+    color: #6c6c6c;
+    text-transform: uppercase;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.footer {
+    float: left;
+}
+
+.contact-info {
+    width: 230px;
+    height: 102px;
+    padding-left: 97px;
+    padding-top: 24px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+}
+
+.footer .menu1 {
+    width: 140px;
+    height: 62px;
+    padding-left: 73px;
+    padding-top: 25px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.footer .menu2 {
+    width: 195px;
+    height: 63px;
+    padding-left: 105px;
+    padding-top: 25px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.subscribe-info {
+    width: 430px;
+    height: 110px;
+    padding-left: 65px;
+    padding-top: 24px;
+}
+
+.contact-info-text2 {
+    padding-top: 33px;
+}
+
+.menu-info-text {
+    padding-top: 16px;
+}
+
+.menu-info-text a,
+.menu-info-text-1 a {
+    text-decoration: none;
+}
+
+
+
+
+.subscribe-info-text {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+}
+
+
+.your-email-address {
+    width: 355px;
+    height: 48px;
+    margin-top: 26px;
+    border: solid 1px #d9dee1;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    padding-left: 19px;
+    color: #6c6c6c;
+}
+
+.send-letter-link {
+    margin-left: -40px;
+}
+
+.send-letter-link img {
+    margin-bottom: -3px;
+}
+
+
+.footer-info {
+    height: 120px;
+}
+
+.footer-bottom-row {
+    padding-top: 50px;
+    height: 50px;
+}
+
+.footer .copyright-text {
+    width: 375px;
+    height: 50px;
+    padding-left: 97px;
+    float: left;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.17;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #6c6c6c;
+    text-transform: uppercase;
+}
+
+.footer .icons {
+    width: 434px;
+    height: 50px;
+    text-align: center;
+}
+
+.footer .icons img {
+    width: 28px;
+    height: 28px;
+    text-align: center;
+}
+
+
+
+.footer .privacy {
+    width: 377px;
+    height: 50px;
+    padding-right: 64px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.17;
+    letter-spacing: 0.6px;
+    float: right;
+    color: #6c6c6c;
+    text-transform: uppercase;
+}
+
+.promo-text-button:hover {
+    box-shadow: 0 12px 12px 12px rgba(33, 33, 33, 0.35);
+}
+

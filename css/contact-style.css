@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.html,
+.body {
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 1366px;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.slider {
+    width: 1366px;
+    height: 356px;
+    background-color: #f5f5f5;
+    /*outline: 3px solid blue;*/
+}
+
+.logo {
+    width: 184px;
+    height: 21px;
+    padding-left: 98px;
+    padding-top: 64px;
+}
+
+.header .menu {
+    float: right;
+    padding-right: 98px;
+    padding-top: 67px;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-list .menu-link {
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 10px 13px;
+    text-decoration: none;
+}
+
+.menu-list .menu-link-active {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.menu-link:hover {
+    border-bottom: 3px solid #212121;
+    color: #212121;
+}
+
+.text {
+    font-family: Montserrat;
+    font-size: 62px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.16;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+    padding-left: 101px;
+    padding-top: 173px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    width: 100%;
+    height: 564px;
+    /*outline: 3px solid green;*/
+}
+
+.contact-block {
+    float: left;
+    width: 370px;
+    height: 370px;
+    outline: 1px solid #a6a6a6;
+    margin-top: 71px;
+    margin-bottom: 122px;
+    text-align: center;
+}
+
+.contact-block:hover {
+    cursor: pointer;
+    box-shadow: 0 0 12px 12px rgba(33, 33, 33, 0.35);
+}
+
+.country {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: center;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+.phone,
+.email,
+.address {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6c6c6c;
+}
+
+.phone-number,
+.email-address {
+    font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #212121;
+}
+
+.full-address {
+    font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 100;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6c6c6c;
+}
+
+.location-icon:hover {
+    opacity: 0.2;
+}
+
+.contact-block > img {
+    padding-top: 48px;
+    padding-bottom: 34px;
+}
+
+div.contact-block:nth-child(1) {
+    margin-left: 98px;
+}
+
+div.contact-block:nth-child(1),
+div.contact-block:nth-child(2) {
+    margin-right: 30px;
+}
+
+.clr {
+    height: 384px;
+    width: 100%;
+    position: relative;
+}
+
+.footer {
+    height: 384px;
+    width: 1366px;
+    margin: 0 auto;
+    margin-top: -384px;
+    /*outline: 3px solid red;*/
+    position: relative;
+}
+
+.footer-top-row {
+    padding-top: 45px;
+    padding-left: 98px;
+    padding-right: 98px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: 1.8px;
+  color: #6c6c6c;
+  text-transform: uppercase;
+}
+
+.footer-top-row .contact-us {
+    float: left;
+    
+}
+
+.footer-top-row .useful-info {
+    padding-left: 164px;
+}
+
+.footer-top-row .stay-in-touch {
+    float: right;
+    margin-bottom: 45px;
+    padding-right: 140px;
+}
+
+.footer-middle-info {
+    padding-top: 25px;
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+
+
+
+.contact-us-info {
+    float: left;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: left;
+  color: #212121;
+    
+}
+
+
+
+.useful-info1 {
+    float: left;
+    padding-left: 80px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.useful-info2 {
+    float: left;
+    padding-left: 108px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: 0.7px;
+    text-align: left;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.span-useful:hover {
+    border-bottom: 1px solid #212121;
+    cursor: pointer;
+}
+
+.stay-in-touch-info {
+    float: right;
+    margin-top: -22px;
+}
+
+.stay-in-touch-description {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+}
+
+.footer-bottom-row {
+    padding-top: 45px;
+    padding-left: 98px;
+    padding-right: 98px;
+    clear: both;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+}
+
+.copyrights {
+    float: left;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.17;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #6c6c6c;
+    text-transform: uppercase;
+}
+
+.privacy {
+    float: right;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.17;
+    letter-spacing: 0.6px;
+    text-align: right;
+    color: #6c6c6c;
+    text-transform: uppercase;
+}
+
+.send-email {
+    margin-top: 26px;
+}
+
+.your-email-address {
+    width: 355px;
+    height: 48px;
+    border: solid 1px #d9dee1;
+    background-color: #ffffff;
+}
+
+.your-email-address {
+  padding-left: 19px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  color: #6c6c6c;
+}
+
+.send-link {
+    margin-left: -40px;
+}
+
+
+.social-links {
+    padding-right: 80px;
+}
+
+
+
+
+
+
